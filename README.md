@@ -18,7 +18,7 @@ Bu proje, dijital ödeme şirketleri için müşteri ve çalışanların cüzdan
 
 1. **Projeyi klonlayın:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/OmerSipahi32/digiwall.git
    cd digiwall
    ```
 2. **Build edin:**
@@ -32,7 +32,8 @@ Bu proje, dijital ödeme şirketleri için müşteri ve çalışanların cüzdan
 4. **H2 Console:**
    - [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
    - JDBC URL: `jdbc:h2:mem:digiwalldb`
-
+   - username: digiwall
+   - password:
 ## API Dokümantasyonu
 
 Swagger arayüzüne erişmek için:
@@ -180,8 +181,6 @@ Authorization: Bearer <token>
 ## Notlar
 
 - Varsayılan olarak H2 in-memory veritabanı kullanılır.
-- JWT secret, port gibi ayarlar için `src/main/resources/application.yml` dosyasını kontrol ediniz.
-- Swagger veya API dokümantasyonu eklenmiştir.
 
 ---
 
